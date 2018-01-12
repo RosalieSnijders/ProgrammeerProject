@@ -14,6 +14,7 @@
 		E6C3DD8A20076ECB00124EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C3DD8820076ECB00124EFB /* LaunchScreen.storyboard */; };
 		E6C3DD9520076ECB00124EFB /* SeriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3DD9420076ECB00124EFB /* SeriesTests.swift */; };
 		E6C3DDA020076ECB00124EFB /* SeriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3DD9F20076ECB00124EFB /* SeriesUITests.swift */; };
+		E6C3DDAE2007A25200124EFB /* SeriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3DDAD2007A25200124EFB /* SeriesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E6C3DD9B20076ECB00124EFB /* SeriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C3DD9F20076ECB00124EFB /* SeriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesUITests.swift; sourceTree = "<group>"; };
 		E6C3DDA120076ECB00124EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C3DDAD2007A25200124EFB /* SeriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E6C3DD7F20076ECB00124EFB /* AppDelegate.swift */,
 				E6C3DD8120076ECB00124EFB /* ViewController.swift */,
 				E6C3DD8320076ECB00124EFB /* Main.storyboard */,
+				E6C3DDAD2007A25200124EFB /* SeriesTableViewController.swift */,
 				E6C3DD8620076ECB00124EFB /* Assets.xcassets */,
 				E6C3DD8820076ECB00124EFB /* LaunchScreen.storyboard */,
 				E6C3DD8B20076ECB00124EFB /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C3DDAE2007A25200124EFB /* SeriesTableViewController.swift in Sources */,
 				E6C3DD8220076ECB00124EFB /* ViewController.swift in Sources */,
 				E6C3DD8020076ECB00124EFB /* AppDelegate.swift in Sources */,
 			);
